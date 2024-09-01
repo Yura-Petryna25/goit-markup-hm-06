@@ -12,8 +12,6 @@
   max-width: 1440px;
 }
 
-
-
 .first-header {
   font-weight: 700;
   font-size: 56px;
@@ -53,10 +51,6 @@
   background-color: #404bbf;
 }
 
-
-
-
-
 .our-port-page {
   font-weight: 500;
   font-size: 20px;
@@ -66,8 +60,6 @@
   gap: 48px 24px;
 }
 
-
-
 /* .foote {
 
   padding: 100px 0;
@@ -76,16 +68,11 @@
   display: flex;
 } */
 
-
 .foter-page {
   /* margin-right: 120px; */
-
 }
 .social-footer {
 }
-
-
-
 
 .section-two-img {
   background-color: #ffffff;
@@ -101,8 +88,6 @@
   color: #404bbf;
 }
 
-
-
 .subscribe {
   display: block;
 }
@@ -111,11 +96,9 @@
   gap: 24px;
 }
 .subscribe-p {
-
   /* margin-top: 61px;
   margin-left: 80px;
   margin-bottom: 16px; */
-  
 }
 .subscribe-btn {
   display: flex;
@@ -150,12 +133,7 @@
   padding-left: 16px;
   color: #ffffff;
 }
-.input-sbc::placeholder {
-  color #ffffff;
-}
-.btn-icons-sbc{
-  margin-left: 16px;
-}
+
 .backdrop {
   position: fixed;
   top: 0;
