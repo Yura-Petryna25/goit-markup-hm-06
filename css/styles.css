@@ -488,12 +488,15 @@ ol {
 /* endregion section-3 */
 
 /* footer */
+.footer-container{
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+}
 .foote {
   background: #2e2f42;
   padding-top: 96px;
   padding-bottom: 96px;
-  display: flex;
-  text-align: center;
 
 }
 .foote-logo {
@@ -514,7 +517,6 @@ ol {
   letter-spacing: 0.02em;
   color: #f4f4fd;
   max-width: 264px;
-  margin-bottom: 72px;
 }
 .foot-logo {
   font-weight: 700;
@@ -572,11 +574,7 @@ ol {
   align-items: baseline;
   margin-bottom: 16px;
 }
-.subscribe{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
+.subscribe{ display: inline;
 }
 .subscribe-btn {
   display: flex;
@@ -617,4 +615,35 @@ ol {
 }
 .btn-icons-sbc{
   margin-left: 16px;
+}
+@media screen and (min-width: 768px) {
+  .footer-container{
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 72px 24px;
+    align-items: baseline;
+    padding-left: 108px;
+  }
+  .social-footer {
+display: inline;
+  }
+  .form-sbc {
+    display: flex;
+  }
+}
+@media screen and (min-width: 1158px) {
+  .footer-container {
+    padding-left: 15px;
+    gap:0;
+
+  }
+  .foote {
+    display: block;
+  } 
+  .foote-page {
+    margin-right: 120px;
+  }
+  .social-footer {
+    margin-right: auto;
+  }
 }
