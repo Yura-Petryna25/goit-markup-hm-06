@@ -545,7 +545,7 @@ ol {
   margin-bottom: 72px;
 }
 .social-footer {
-  display: flex;
+  /* display: flex; */
   flex-wrap: wrap;
   justify-content: center;
   text-align: center;
@@ -574,7 +574,7 @@ ol {
   align-items: baseline;
   margin-bottom: 16px;
 }
-.subscribe{ display: inline;
+.subscribe{ display: block;
 }
 .subscribe-btn {
   display: flex;
